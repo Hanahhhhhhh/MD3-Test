@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <h1><span style="color: grey"> ADD NEW CITY </span></h1>
+    <form action="/list/add" method="post">
+        <p style="color: red; display: none">Enter the fail filed</p>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Enter Name" name="addName">
+        </div>
+        <div class="form-group">
+            <label >Country</label>
+            <input type="text" class="form-control"  placeholder="Enter Country" name="addCountry">
+        </div>
+        <div class="form-group">
+            <label >Area</label>
+            <input type="text" class="form-control"  placeholder="Enter Area" name="addArea">
+        </div>
+        <div class="form-group">
+            <label >Population</label>
+            <input type="text" class="form-control"  placeholder="Enter population" name="addPopulation">
+        </div>
+        <div class="form-group">
+            <label >GDP</label>
+            <input type="text" class="form-control"  placeholder="Enter GDP" name="addGDP">
+        </div>
+        <div class="form-group">
+            <label >Description</label>
+            <textarea class="form-control"  placeholder="Enter Description" name="addDescription"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/list" type="submit" class="btn btn-danger">Cancel</a>
+    </form>
+    <br>
+    <a href="/list" class="btn btn-primary">Back to List Page</a>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>
